@@ -7,7 +7,7 @@ app.set('port', (process.env.PORT || 5000)); // basically we are setting the por
 // says use the port that whichever thing you are useins port.
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, "./public/view/index.html")); // __dirname is sort of like "this" in refrance to
+    res.sendFile(path.join(__dirname, "./public/views/index.html")); // __dirname is sort of like "this" in refrance to
     // where the request is coming in from
 });
 
